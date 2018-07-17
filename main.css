@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+
+}
+html{
+    background-color: black; 
+}
+header{
+    width: 400px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-bottom: 4px solid gold;
+}
+h1{
+    color: gold;
+    text-align: center;
+}
+.heroName{
+    color: gold;
+    font-size: 24px;
+    width: 33%;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+.heroNameDiv{
+    position: relative;
+    height: 100px;
+}
+.characterSelect{
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid gold;
+    width: 90%;
+    height: 45px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+.characterSelectDiv{
+    text-align: center;
+}
+.submitDiv{
+    text-align: center;
+}
+.submitButton{
+    margin: auto;
+    background-color: white;
+    border-radius: 100px;
+    border: 3px solid gold;
+    width: 120px;
+    height: 120px;
+}
+.submitButton:hover{
+    background-color: gold;
+}
+.fightIcon{
+    width:  100px;
+    height: 100px;
+}
+.lowerStat{
+    color: red;
+    text-align: center;
+}
+.higherStat{
+    color: lightgreen;
+    text-align: center;
+}
+.sameStat{
+    color: white;
+    text-align: center;
+}
+.imgHolder{
+    text-align: center;
+}
+.loserCircle{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 5px solid red;
+    text-align: center;
+}
+.tiedCircle{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 5px solid gold;
+    text-align: center;
+}
+.winnerCircle{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 5px solid lightgreen;
+    text-align: center;
+}
+.statHolder{
+    border-radius: 5px;
+    border: 5px solid gold;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.statPara{
+    font-size: 22px;
+    text-align: center;
+}
+.winnerPara{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+.statKey{
+    color: gold;
+
+}
+.winner-result{
+    position: relative;
+    left: 0;
+    top: 35px;
+    font-size: 40px;
+    color: lightgreen;
+}
+.errorMessage{
+    color: gold;
+    font-size: 24px;
+    text-align: center
+}

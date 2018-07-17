@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SuperHero Combat</title>
+        <meta charset="utf-8"> 
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" >
+        <link rel="stylesheet" href="./float-grid.css" />
+        <link rel="stylesheet" type="text/css" href="./main.css" />
+        <link rel="stylesheet" type="text/css" href="./autoCompleteUI.css" />
+    </head>
+    <body>
+
+        <header>
+            <h1 role="banner">SuperHero Combat</h1>
+        </header>
+        <main role="main">
+            <div class="ui-widget">
+                <form id="characterForm" class="characterForm">
+                    <div class="row">
+                        <div class="col-6 characterSelectDiv">
+                            <input type="text" class="characterSelect" id="firstHero">
+
+                        </div>
+                        <div class="col-6 characterSelectDiv">
+                            <input type="text" class="characterSelect" id="secondHero">
+                        </div>
+                    </div>
+                    <div class="submitDiv">
+                        <button type="submit" class="submitButton">
+                            <img class="fightIcon" src="https://cdn.iconscout.com/public/images/icon/premium/png-512/swords-weapon-medieval-sword-fight-3e0c44d4d1f9a463-512x512.png">
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div id="displayCharacterStats" aria-live="assertive">
+
+            </div>
+        </main>
+
+
+
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+        <script
+            src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+            integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+            crossorigin="anonymous"></script>
+        <!--<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>-->
+        <script type="text/javascript" src="./characterArray.js"></script>
+        <script type="text/javascript" src="./index.js"></script>
+    </body>
+</html>
