@@ -2,7 +2,7 @@
 
 ## Live Link
 
-Here is a live link <https://jgaddy2017.github.io/Gaddy-Marvel-Heros/>
+Here is a live link <https://jgaddy2017.github.io/SuperHero-Combat/>
 
 ### Similar Version of the application 
 
@@ -13,7 +13,7 @@ Live link: <https://jgaddy2017.github.io/Original-Marvel-Hero-Project/>
 
 ## Summary Section
 
-This application is used to find stats and basic information on your favorite Marvel character. All you have to do is type in a name and hit search. Also, if you do not know who to search for you can hit the random button on the top left to recieve information on a random character.
+This application is used to find stats for your favorite Hero's and compares them. The application has a dynamic search input, so if you do not know who you want to compare, suggestions will be given. To use the application all you have to do is type in two character names and then click the fight icon. The application will list the stats while determining who would win in a one on one match up.
 
 ## Technology 
 
