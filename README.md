@@ -35,4 +35,4 @@ Heroku (used for the proxy server)
 
 ## Screenshots
 
-<img width="941" alt="screen shot 2018-06-26 at 9 48 41 pm" src="https://user-images.githubusercontent.com/10607107/41948444-d62a2064-798a-11e8-8663-0b85d3173c71.png">
+<img width="1414" alt="screen shot 2018-07-24 at 2 11 16 am" src="https://user-images.githubusercontent.com/10607107/43139594-26419f3c-8f20-11e8-9598-df67cb11ba40.png">
