@@ -1,4 +1,7 @@
 
+
+
+
 const characterArray = [ "A-Bomb",
                         "Abe Sapien",
                         "Abin Sur",
@@ -7,7 +10,6 @@ const characterArray = [ "A-Bomb",
                         "Absorbing Man",
                         "Adam Monroe",
                         "Adam Strange",
-                        "Agent",
                         "Agent Bob",
                         "Agent Zero",
                         "Air-Walker",
@@ -710,4 +712,13 @@ const characterArray = [ "A-Bomb",
     	"Yoda",
     	"Zatanna",
         "Zoom"
-    ];
+	];
+	/*
+	function changeToUpperCase(){
+		for(let i = 0; i < characterArray.length; i++){
+			characterArray[i] = characterArray[i].toUpperCase();
+		}
+		console.log(characterArray);
+	}
+	changeToUpperCase();
+	*/

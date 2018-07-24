@@ -13,7 +13,6 @@
 {
     font-family: Verdana,Arial,sans-serif;
     font-size: 15px;
-    border: 1px solid black;
 }
 .ui-menu
 {
@@ -70,4 +69,7 @@
 .ui-widget-content a
 {
     color: #222222;
+}
+.ui-helper-hidden-accessible{
+    color: transparent;
 }
